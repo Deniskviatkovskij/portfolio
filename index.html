@@ -12,12 +12,18 @@
 		<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
         <!-- Styles -->
         <link href="/assets/css/style.css" rel="stylesheet">
+        
+    <script href = "/assets/js/script.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
     
 
 
-    <nav>
+    <nav class = "animate__animated animate__fadeInLeft">
         <div class = "nav_container">
             <a class="nav_item" href="" id="nav_about">
                 <div>
@@ -51,15 +57,8 @@
                     </span>
                 </div>
             </a>
-
+          
         </div>
-
-
-
-
-
-
-
 
 
     </nav>
@@ -68,16 +67,10 @@
 
 
 
-
-
-
-
-
-
-    <section class = "about_section">
+    <section class = "about_section animate__animated animate__fadeIn">
         <div class = "about_container">
         <div class = "heading">
-            <h1>About Me</h1>
+            <h1 class = "animate__animated animate__fadeInDown">About Me</h1>
             <div class = "heading_underline"></div>
         </div>
         
@@ -87,18 +80,36 @@
                 </div>
                 <div class = "info_card_text">
                    
-                    <span class = "bold_text white_text"><i class="text_icon fas fa-user"></i>Denis Kviatkovskij<br></span>
-                    <span class = "white_text"><i class="text_icon fas fa-desktop"></i>Frond End Developer<br></span>
+                    <span class = "bold_text white_text"><i class="text_icon fas fa-user"></i>Denis Kviatkovskij</span>
+                    <span class = "white_text"><i class="text_icon fas fa-user-graduate"></i>IT Engineering</span>
                     <span class = "white_text"><i class="text_icon far fa-at"></i>denis.kviatkovskij@gmail.com</span>
                   
                 </div>
             </div>
             
-                <p class = "about_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam consequatur soluta adipisci non inventore deleniti odio, itaque quasi minima doloremque quia perspiciatis. Consequuntur illo nobis nesciunt deleniti quasi nam qui!</p>
-                <p class = "about_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi corporis ipsum doloremque rem omnis, delectus, numquam provident aut quibusdam, enim neque illo animi aspernatur laudantium tempore mollitia odit vel voluptatibus.</p>
+                <p class = "about_text">Hey! I am Denis Kviatkovskij, and I share a passion for Front-End development and project management.</p>
+                <p class = "about_text">I am currently studying at Vilnius Gediminas technical university, this is now my second year of study, I am majoring in IT engineering and have been searching for an internship or an entry-level position in the hopes of expanding my on-the-job experiences and improving on my skillset.</p>
          
+                <div class="button_container">
 
+                    <a class="button_container_button button_resume" href="" target="_blank" rel="noopener" aria-label="Resume">
+                        <span class="button_text">
+                            View Resume
+                            <i class="right_arrow fas fa-arrow-right"></i>
+                        </span>
+                    </a>
 
+                    <a class="button_container_button button_linkedin" href="" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <span class="button_text">
+                            GitHub Page
+                            <i class="right_arrow fas fa-arrow-right"></i>
+                        </span>
+                    </a>
+                  
+                </div>
+
+                
+              
 </div>
 
 
@@ -108,9 +119,110 @@
 
 
 
+    <section class = "skills_section">
+        <div class = "skills_container">
+        <div class = "heading">
+            <h1 class = "">My Stack</h1>
+            <div class = "heading_underline"></div>
+        </div>
+        <div class = "actual_skills">
+            <h2 class = "skills_heading">
+                Front End Development
+            </h2>
+            <p class = "skills_text">
+                I am still on my path to master the basic Front End stack,
+                 therefore I am working on the projects using HTML, CSS, and vanilla JavaScript.
+            </p>
+
+        </div>
+
+
+        <div class = "skill_item_grid">
+
+                
+    <div class = "skill_item html_item">
+        <div class="skill_item_icon_container">
+            <i class="skill_item_icon fab fa-html5"></i>
+        </div>
+        <div class="skillItem_body">
+                                
+            <h3 class="skillItem_body_heading boldText whiteText">
+                HTML5
+            </h3>
+    </div>
+</div>
+        
+    <div class = "skill_item css_item">
+            <div class="skill_item_icon_container">
+                <i class="skill_item_icon fab fa-css3"></i>
+            </div>
+            <div class="skillItem_body">
+									
+                <h3 class="skillItem_body_heading boldText whiteText">
+                    CSS3
+                </h3>
+        </div>
+    </div>
+
+    <div class = "skill_item js_item">
+            <div class="skill_item_icon_container">
+                <i class="skill_item_icon fab fa-js-square"></i>
+            </div>
+            <div class="skillItem_body">
+									
+                <h3 class="skillItem_body_heading boldText whiteText">
+                    JavaScript
+                </h3>
+        </div>
+    </div>
+
+    
 
 
 
+
+</div>
+ <div class = "actual_skills zemiau">
+            <h2 class = "skills_heading">
+                Other Skills
+            </h2>
+            <p class = "skills_text">
+               I also make use of a number of other skills and tools on a daily basis, as a part of my development process.
+            </p>
+
+        </div>
+
+
+        <div class = "skill_item_grid">
+
+                
+    <div class = "skill_item git_item">
+        <div class="skill_item_icon_container">
+            <i class="skill_item_icon fab fa-github"></i>
+        </div>
+        <div class="skillItem_body">
+                                
+            <h3 class="skillItem_body_heading boldText whiteText">
+                GIT
+            </h3>
+    </div>
+</div>
+        
+    <div class = "skill_item jira_item">
+            <div class="skill_item_icon_container">
+                <i class="skill_item_icon fab fa-jira"></i>
+            </div>
+            <div class="skillItem_body">
+									
+                <h3 class="skillItem_body_heading boldText whiteText">
+                    JIRA
+                </h3>
+        </div>
+    </div>
+
+</div>
+</div>
+    </section>
 
 
 
