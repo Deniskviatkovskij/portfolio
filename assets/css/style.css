@@ -44,8 +44,8 @@ nav {
 }
 .nav_container .nav_item {
     display: inline-flex;
-    height: 80px;
-    width: 80px;
+    height: 5.2vw;
+    width: 5.2vw;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
@@ -63,7 +63,7 @@ nav {
 
 .nav_container .nav_item:hover {
     cursor: pointer;
-    width: 85px;
+    width: 5.6vw;
     color: #F7FFF7;
     border-color: transparent;
     background-color: #D77A61;
@@ -71,7 +71,7 @@ nav {
    
 }
 .nav_item_icon {
-    font-size: 22px;
+    font-size: 1.4rem;
     margin-bottom: 10px;
 }
 
