@@ -424,7 +424,12 @@ nav {
     .zemiau {
         margin-top: 40px;
     }
-
+    .skillItem_body_heading {
+        font-size: 1.2em;
+    }
+    .skill_item_icon {
+        font-size: 25px;
+    }
 
 
 
