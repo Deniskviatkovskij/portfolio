@@ -14,7 +14,7 @@
         <!-- Styles -->
         <link href="assets/css/style.css" rel="stylesheet">
         <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
-        
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script href = "assets/js/script.js"></script>
     <link
     rel="stylesheet"
@@ -124,7 +124,7 @@
     <section class = "skills_section">
         <div class = "skills_container">
         <div class = "heading">
-            <h1 data-center="opacity:1;left:0;" data-0-bottom="opacity:0;left:-80px;">My Stack</h1>
+            <h1 data-aos="fade-up" data-aos-duration="500">My Stack</h1>
             <div class = "heading_underline"></div>
         </div>
         <div class = "actual_skills">
@@ -142,7 +142,7 @@
         <div class = "skill_item_grid">
 
                 
-    <div class = "skill_item html_item">
+    <div class = "skill_item html_item" data-aos="zoom-in">
         <div class="skill_item_icon_container">
             <i class="skill_item_icon fab fa-html5"></i>
         </div>
@@ -154,7 +154,8 @@
     </div>
 </div>
         
-    <div class = "skill_item css_item">
+    <div class = "skill_item css_item" data-aos="zoom-in" data-aos-delay="100"
+    >
             <div class="skill_item_icon_container">
                 <i class="skill_item_icon fab fa-css3"></i>
             </div>
@@ -166,7 +167,8 @@
         </div>
     </div>
 
-    <div class = "skill_item js_item">
+    <div class = "skill_item js_item" data-aos="zoom-in" data-aos-delay="200"
+    >
             <div class="skill_item_icon_container">
                 <i class="skill_item_icon fab fa-js-square"></i>
             </div>
@@ -198,7 +200,7 @@
         <div class = "skill_item_grid">
 
                 
-    <div class = "skill_item git_item">
+    <div class = "skill_item git_item" data-aos="zoom-in">
         <div class="skill_item_icon_container">
             <i class="skill_item_icon fab fa-github"></i>
         </div>
@@ -210,7 +212,7 @@
     </div>
 </div>
         
-    <div class = "skill_item jira_item">
+    <div class = "skill_item jira_item" data-aos="zoom-in" data-aos-delay="100">
             <div class="skill_item_icon_container">
                 <i class="skill_item_icon fab fa-jira"></i>
             </div>
@@ -237,6 +239,14 @@
     }
     
 </script>    
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 
 
 </body>

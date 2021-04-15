@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -46,6 +47,8 @@ nav {
     display: inline-flex;
     height: 5.2vw;
     width: 5.2vw;
+    min-height: 65px;
+    min-width: 65px;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
@@ -389,4 +392,40 @@ nav {
 .jira_item:hover .skill_item_icon_container {
     animation: flipsInY 1s;
     background-color: #264de4;
+}
+
+
+@media screen and (max-height: 720px) {
+    .heading h1 {
+        font-size: 3.5em;
+    }
+    .info_card_image img {
+        max-width: 160px;
+    }
+    .info_card_text span {
+        font-size: 1.2em;
+    }
+    .about_text {
+        font-size: 1.3em;
+    }
+    .button_container_button {
+        width: 180px;
+        height: 48px;
+    }
+    .skills_heading {
+        font-size: 2em;
+    }
+    .skills_text {
+        font-size: 1.3em;
+    }
+    .heading {
+        margin-bottom: 30px;
+    }
+    .zemiau {
+        margin-top: 40px;
+    }
+
+
+
+
 }
