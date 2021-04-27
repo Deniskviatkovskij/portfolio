@@ -406,44 +406,6 @@ nav {
 }
 
 
-@media screen and (max-height: 720px) {
-    .heading h1 {
-        font-size: 3.5em;
-    }
-    .info_card_image img {
-        max-width: 160px;
-    }
-    .info_card_text span {
-        font-size: 1.2em;
-    }
-    .about_text {
-        font-size: 1.3em;
-    }
-    .button_container_button {
-        width: 180px;
-        height: 48px;
-    }
-    .skills_heading {
-        font-size: 2em;
-    }
-    .skills_text {
-        font-size: 1.3em;
-    }
-    .heading {
-        margin-bottom: 30px;
-    }
-    .zemiau {
-        margin-top: 40px;
-    }
-    .skillItem_body_heading {
-        font-size: 1.2em;
-    }
-    .skill_item_icon {
-        font-size: 25px;
-    }
-
-}
-
 
       .card {
         display: grid;
@@ -478,6 +440,7 @@ nav {
         height: 100%;
         width: auto;
        
+       
       }
       
     
@@ -497,7 +460,7 @@ nav {
       
 
       .kontas {
-        max-width: 1100px;
+       
         margin: auto;
         overflow: auto;
         padding: 0 2rem;
@@ -521,6 +484,7 @@ nav {
 .kontas-sone-sone {
  
     width: 75%;
+
 }
 
 .workItem_content_tags {
@@ -528,7 +492,9 @@ nav {
     display: -ms-inline-flexbox;
     display: inline-flex;
     flex-wrap: wrap;
-    margin-top: 10px; }
+    margin-top: 2px;
+    margin-bottom: 1.5em 
+}
     .workItem_content_tags .tag {
       width: fit-content;
       margin-right: 10px;
@@ -536,14 +502,19 @@ nav {
       padding: 12px 15px;
       background-color: #3A3939;
       border-radius: 22px;
-      text-align: center; }
+      text-align: center; 
+    }
+
       .workItem_content_tags .tag:last-of-type {
-        margin-right: 0px; }
+        margin-right: 0px; 
+    }
      .workItem_content_tags .tag_text {
         font-size: 1.3em;
-        color: #D77A61; }
+        color: #D77A61; 
+    }
          .workItem_content_tags .tag_text_icon {
-          margin-right: 5px; }
+          margin-right: 5px;
+         }
 
 
 
@@ -583,7 +554,7 @@ nav {
             
           }
           .project_container:hover .middle {
-              bottom: 0;
+              bottom: 0px;
           }
 
           
@@ -648,3 +619,168 @@ nav {
               position: absolute;
               color:rgba(255, 255, 255, 0.473);
           }
+
+
+
+
+
+
+          @media screen and (max-height: 720px) {
+            .heading h1 {
+                font-size: 3.5em;
+            }
+            .info_card_image img {
+                max-width: 160px;
+            }
+            .info_card_text span {
+                font-size: 1.2em;
+            }
+            .about_text {
+                font-size: 1.3em;
+            }
+            .button_container_button {
+                width: 180px;
+                height: 48px;
+            }
+            .skills_heading {
+                font-size: 2em;
+            }
+            .skills_text {
+                font-size: 1.3em;
+            }
+            .heading {
+                margin-bottom: 30px;
+            }
+            .zemiau {
+                margin-top: 40px;
+            }
+            .skillItem_body_heading {
+                font-size: 1.2em;
+            }
+            .skill_item_icon {
+                font-size: 25px;
+            }
+            .button_container {
+                
+                margin-top: 15px;
+            }
+         
+           
+        
+        }
+        
+
+
+
+
+
+          @media only screen and (max-width: 1024px) {
+            .card {
+              display: block;
+              padding: 0;
+              
+            
+             }
+             .project_container .middle {
+      bottom: 27px;    
+              }
+              .project_container:hover .middle {
+                  bottom: 27px;
+              }
+              .kontas {
+                  padding: 0;
+              }
+    
+         }
+
+
+          @media only screen and (max-width: 850px) {
+            .skill_item_grid {
+              grid-template-columns: 1fr;
+             }
+             .footer {
+                 height: 160px;
+             }
+             }
+          @media only screen and (max-width: 700px) {
+            .pageContent {
+              padding: 0px;
+              padding-top: 110px; }
+          
+            .section {
+              width: 90%;
+              margin: 30px auto; }
+
+              .footer {
+                  position: absolute;
+              }
+          
+            nav {
+              width: 100%;
+              height: 95px;
+              background-color: #1c1d2b;
+              display: flex;
+              justify-content: center; 
+             
+              
+             }
+
+              nav .nav_item {
+                margin: 0;
+                margin-right: 20px;
+                
+            }
+            .nav_container .nav_item {
+                margin-bottom: 0;
+            }
+            nav .nav_container .nav_item:hover {
+                width: 78px; }
+            
+            .info_card_container {
+              width: 100%;
+              display: block; }
+              .info_card_image {
+                margin-right: 0px;
+                margin-bottom: 30px; }
+                .info_card_image img {
+                  max-width: 250px;
+                  margin: 0px; }
+              .info_card_text {
+                width: fit-content;
+                margin: 0px;
+                margin-top: 10px; } }
+          @media only screen and (max-width: 600px) {
+            .section {
+              margin: 30px auto;
+              margin-bottom: 100px; }
+          
+            h1 {
+              font-size: 3em; }
+          
+            .button_container {
+              display: block; }
+              .button_container .button_container_button {
+                margin-right: 0px;
+                margin-bottom: 20px; }
+                .button_container .button_container_button:last-of-type {
+                  margin-bottom: 0px; }
+                  .button_container .button_container_button {
+              width: 100%; } }
+          @media only screen and (max-width: 500px) {
+            .info_card_image {
+              margin: auto;
+              margin-bottom: 30px; }
+              }
+          @media only screen and (max-width: 400px) {
+            nav {
+              height: 85px;
+            display: flex;
+        justify-content: center; }
+              nav .nav_container .nav_item {
+                height: 50px;
+                width: 50px;
+                margin-right: 15px; }
+                nav .nav_container .nav_item:hover {
+                  width: 70px; }
+                }
+          
