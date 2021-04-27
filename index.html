@@ -23,8 +23,8 @@
 <body>
     
 
-
-    <nav class = "animate__animated animate__fadeInDown">
+<div class = "navas">
+    <nav class = "animate__animated animate__fadeInLeft">
         <div class = "nav_container">
             <a class="nav_item nav_item_about" href="#about" id="nav_about">
                 <div>
@@ -63,7 +63,7 @@
 
 
     </nav>
-
+</div>
 
 
 <main class = "pageContent" id = "main_content">
@@ -370,6 +370,22 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init();
+</script>
+
+
+<script>
+function checkWindowSize() {  
+    if ( $(window).width() < 700) { 
+        $('nav').addClass('animate__fadeInDown');
+        $('nav').removeClass('animate__fadeInLeft');  
+        } else {  
+        $('nav').removeClass('animate__fadeInDown'); 
+        $('nav').addClass('animate__fadeInLeft'); 
+    } 
+
+}
+checkWindowSize()
+
 </script>
 
 

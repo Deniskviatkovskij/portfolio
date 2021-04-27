@@ -733,11 +733,9 @@ nav {
               justify-content: center; 
               
              }
-             .animate__fadeInLeft {
-                
-                animation-name: fade-In-Down !important;
-                animation-delay: 1s;
-             }
+          .navas .animate__fadeInDown {
+              animation-delay: 1s;
+          }
 
               nav .nav_item {
                 margin: 0;
@@ -763,11 +761,7 @@ nav {
               .info_card_text {
                 width: fit-content;
                 margin: 0px;
-                margin-top: 10px;
-             }
-
-
-             }
+                margin-top: 10px; } }
           @media only screen and (max-width: 600px) {
             .section {
               margin: 30px auto;
